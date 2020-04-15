@@ -18,7 +18,6 @@ For help getting started with Flutter, view our online [documentation](https://f
         onWebViewCreated: (WebViewController webViewController) {
           _controller.complete(webViewController);
         },
-        javascriptMode:JavascriptMode.unrestricted,
       ),
     );
 
